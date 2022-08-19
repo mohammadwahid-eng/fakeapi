@@ -1,0 +1,14 @@
+{
+  "name": "fakeapi",
+  "version": "1.0.0",
+  "description": "Fake api using json-server package",
+  "scripts": {
+    "start": "json-server db.json",
+    "serve": "json-server db.json --watch"
+  },
+  "author": "Mohammad Wahid",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
